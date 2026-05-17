@@ -262,11 +262,6 @@ The contract emits events for off-chain indexing:
 - `fee_updated` — Platform fee changed
 - `fees_withdrawn` — Platform fees withdrawn by admin
 
-## Cross-Repo Context
-
-This contract is part of a three-repo organisation (Contracts, Frontend, Backend).
-The [`ai.md`](./ai.md) file at the root of this repo is the shared context document — it contains the full contract interface, TypeScript type equivalents, event shapes, error codes, royalty math, and integration notes for all three repos.
-
 ## Dependencies
 
 - `soroban-sdk = "22.0.0"` — Soroban smart contract SDK
